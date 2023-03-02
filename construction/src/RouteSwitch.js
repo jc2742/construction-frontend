@@ -11,9 +11,9 @@ const RouteSwitch = () => {
         <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<App />} />
-                    <Route path= "/private/" element={<PrivateRoute element={<AuthView/>} />}/>
-                    <Route path= "/login/" element={<Login/>}/>
-                    <Route path= "/logout/" element={<Logout/>}/>
+                    <Route path= "/private" element={<PrivateRoute element={<AuthView/>} />}/>
+                    <Route path= "/login" element={<Login/>}/>
+                    <Route path= "/logout" element={<Logout/>}/>
                 </Routes>
         </BrowserRouter>
      );
